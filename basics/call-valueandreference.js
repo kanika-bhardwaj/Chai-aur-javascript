@@ -23,3 +23,26 @@ const myfunc=function(){
     console.log("Hello");
 }
 console.log(typeof myObj)
+
+
+//How the memory works??
+//stack memory-> used for primitive types
+//heap memory ->used for non-primitive types-> whatever change is done its reflected in original value
+
+
+let mychannel="Kanika1202"
+let ano=mychannel
+ano="codeblocks"
+console.log(mychannel)//kanika1202
+console.log(ano)//codeblocks
+
+let user1={
+    name:"Kani",
+    age:22,   
+}
+let user2=user1
+user2.name="Kanika"
+
+console.log(user1.name)//Kanika
+console.log(user2.name)//Kanika
+
