@@ -14,7 +14,7 @@ const regularuser={
         },
     },
 }
-console.log(regularuser.fullname.userfullname.firstname);
+// console.log(regularuser.fullname.userfullname.firstname);
 
 const obj1={1:"a",2:"b"}
 const obj2={2:"c",4:"d"};//assigns c to 2 on concatenation
@@ -33,8 +33,30 @@ const users=[
     }
 ]
 users[1].email;
-console.log(instauser);
-console.log(Object.keys(instauser));
-console.log(Object.values(instauser));
-console.log(Object.entries(instauser));
-console.log(instauser.hasOwnProperty('isLoggedIn'));
+// console.log(instauser);
+// console.log(Object.keys(instauser));
+// console.log(Object.values(instauser));
+// console.log(Object.entries(instauser));
+// console.log(instauser.hasOwnProperty('isLoggedIn'));
+
+const course={
+    cour_name:"BS Padhai",
+    price:"777",
+    cour_inst:"Kanika",
+}
+const{cour_inst: inst}=course;
+console.log(inst);
+
+//some react
+// const navbar=({company})=>{
+
+// }
+// navbar(company="thathinglishcoder");
+
+//JSON
+// {
+//     "name":"Kanika",
+//     "course_name":"sb kuch pdhai",
+//     "course_price":"Free"
+// }
+
