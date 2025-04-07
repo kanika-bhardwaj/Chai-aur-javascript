@@ -56,3 +56,20 @@ if(namethere && debitcard){ //AND
     console.log("something is missing?");
 }
 
+//Nullish coalescing operator (??): null endefined
+
+let val1;
+// val1=5??10;
+// val1=null??10;//10
+// val1=undefined??15;//15
+val1=null??10??19;//10
+console.log(val1);
+
+//ternary operator
+// condition?true code:false code
+
+const iceteaprice=100;
+iceteaprice<=80?console.log("affordable"):console.log("very mehnga");
+
+
+
