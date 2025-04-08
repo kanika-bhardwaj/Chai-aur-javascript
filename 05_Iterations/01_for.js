@@ -46,6 +46,6 @@ while (num>0) {
 //always runs once even if consition is false
 let num2=3;
 do {
-    console.log(num2);
+    console.log(num2+1);
 } while (num2!=3);
 
